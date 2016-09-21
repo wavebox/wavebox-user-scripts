@@ -16,7 +16,7 @@ Your mailbox will reload and your script will be applied.
 
 Here are some userscripts that have been provided by the community to help you customise your mailboxes
 
-* **@axllent Hide Ads in Gmail** This hides the ads in Gmail and make the email screen wider [css](axllent/hideads/userscript.css)
+* **@axllent [Hide Ads in Gmail](axllent/hideads/userscript.css)** This hides the ads in Gmail and make the email screen wider [CSS](axllent/hideads/userscript.css)
 
 ---
 
