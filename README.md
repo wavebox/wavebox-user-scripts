@@ -18,11 +18,13 @@ Here are some userscripts that have been provided by the community to help you c
 
 * **@axllent Hide Ads in Gmail** This hides the ads in Gmail and make the email screen wider [css](axllent/hideads/userscript.css)
 
-## Contributing
+---
+
+### Contributing
 
 If you think there's a userscript missing and you're interested in adding one, please submit a pull request :-)
 
-## Developing and Testing
+### Developing and Testing
 
 If you're developing a userscript, it's useful to know that you can bring up the developer tools for any mailbox:
 
