@@ -18,7 +18,7 @@ Here are some userscripts that have been provided by the community to help you c
 
 * **@axllent [Hide Ads in Gmail](axllent/hideads/userscript.css)** - hides the ads in Gmail and make the email screen wider [CSS](axllent/hideads/userscript.css)
 * **@axllent [Attachment Icons in Gmail](axllent/attachmenticons/userscript.css)** - adds basic attachment icons depending on filetype [CSS](axllent/attachmenticons/userscript.css)
-* **@Thomas101** [Hide Scrollbar in Inbox](Thomas101/hidescroll/userscript.css)** - hides the main scrollbar that flows over the titlebar in Google Inbox [CSS](Thomas101/hidescroll/userscript.css)
+* **@Thomas101 [Hide Scrollbar in Inbox](Thomas101/hidescroll/userscript.css)** - hides the main scrollbar that flows over the titlebar in Google Inbox [CSS](Thomas101/hidescroll/userscript.css)
 
 ---
 
