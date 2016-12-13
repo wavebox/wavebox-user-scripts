@@ -46,6 +46,12 @@
 .yE[title *=".PUB"] {
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42tWTQQoDIQxFPWsv0OUsuvA6HqP3EdyJEdTUDFRSgmMzs5oPj2ySx9/EIOKOtRb/4NWh3XH3I8g5Y0pJAABc8pwKKGZ7C3ro8Dtr53FGwElTgfdewDJkU4FzbhBCoMnRCWKMApUAAK41KKUIVIJaq77BOusGvMndGtAztdaOoJ25QMEQfADzDx8Vvn4t4AAAAABJRU5ErkJggg==');
 }
+.yE[title *=".txt"],
+.yE[title *=".TXT"],
+.yE[title *=".vcf"],
+.yE[title *=".VCF"] {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATklEQVQ4jWP4//8/AyUYzvBse/4fD97PgARIMuDiw58YhpBkAAigG4LXABhA5yMbQrIL0A0hygXIrsBiKMmxQLwB+MBIdgF9Y4FsA8jFAD1C6regRJRvAAAAAElFTkSuQmCC');
+}
 /* Compressed */
 .yE[title *=".rar"],
 .yE[title *=".RAR"],
