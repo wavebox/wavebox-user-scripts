@@ -101,7 +101,7 @@
 .yE[title *=".TAR"],
 .yE[title *=".zip"],
 .yE[title *=".ZIP"] {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAhFBMVEX///9QUFBQUFBQUFDHhQRQUFChoaFQUFBcXFy5ii/HhQRQUFDLy8vj4+P777P09PRzc3ORkZGdnZ1jY2NWVlazs7OXl5evr6+4uLh7e3vCwsKKiopra2vGxsaDg4O8vLz2205cXFzPz8+hoaGlpaXe3t7q6urx8fHOzs6YmJisrKzX19eXNMJCAAAACnRSTlMAAPOEloeWlpbUcfQdlwAAAIZJREFUeF5VzUUSw0AMRFGNMdGAmdlBuP/9orHshd+mq/6mgQS3QwCbNHqxKKXgIV5L9nuUFNAYtDxI1JrYMM/GQuiU6rbAEMZhGE+hadvmFOJpik+hr+ueb/eXrCgy2F0Wq6oWDkLkT631+/7NheAQShYewZUugASg5eB8HGnRcvClL4jdPzQUDp2x9OieAAAAAElFTkSuQmCC');
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOklEQVQ4jWNgGH6guLj4Py5MHwMoBsPDC+dxuOA8sQYIYDEExBcgxRUKQPweqhlEG5DjFQOyNQ8tAAAXFG8XqmcJnQAAAABJRU5ErkJggg==');
 }
 /* Media */
 .yE[title *=".avi"],
