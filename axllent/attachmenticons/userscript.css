@@ -103,14 +103,35 @@
 .yE[title *=".ZIP"] {
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOklEQVQ4jWNgGH6guLj4Py5MHwMoBsPDC+dxuOA8sQYIYDEExBcgxRUKQPweqhlEG5DjFQOyNQ8tAAAXFG8XqmcJnQAAAABJRU5ErkJggg==');
 }
-/* Media */
+/* Video */
 .yE[title *=".avi"],
 .yE[title *=".AVI"],
+.yE[title *=".m4v"],
+.yE[title *=".M4V"],
+.yE[title *=".mkv"],
+.yE[title *=".MKV"],
 .yE[title *=".mov"],
 .yE[title *=".MOV"],
-.yE[title *=".mp"],
-.yE[title *=".MP"] {
+.yE[title *=".mpe"],
+.yE[title *=".MPE"],
+.yE[title *=".mp4"],
+.yE[title *=".MP4"] {
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVQ4jWP4//8/AyWY4baL+YK7AS7/QeBZfdl/IB+MiRRbwACT/HL04P9PO7fAFRMrBjfgZVfT/79fPqMoJkaMgWKAbDo5eJAZQCwYxF4YwQYsoMCABQAu1V08G/5LMAAAAABJRU5ErkJggg==');
+}
+/* Audio */
+.yE[title *=".flac"],
+.yE[title *=".FLAC"],
+.yE[title *=".m4a"],
+.yE[title *=".M4A"],
+.yE[title *=".mp3"],
+.yE[title *=".MP3"],
+.yE[title *=".ogg"],
+.yE[title *=".OGG"],
+.yE[title *=".wav"],
+.yE[title *=".WAV"],
+.yE[title *=".wma"],
+.yE[title *=".WMA"] {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVQ4y2P4//8/AyUYQhABHnjZ/wfi/RgSuAxAVww1AIYd8BoA0gxSiEscxXB0A5AU/cflMqh8A4YByJqRDUB2NohGkQcZgOY/XAb8x+pFMg1ooIoB4HCgihcoDkSqRSNVEhJVkjLJmYkSDABcdmKp79991gAAAABJRU5ErkJggg==');
 }
 /* PDF */
 .yE[title *=".pdf"],
