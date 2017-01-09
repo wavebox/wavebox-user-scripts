@@ -1,8 +1,12 @@
-/* Hide side ads / wider email screen */
-.iY .Bu.y3 {
+/* Hide ads */
+.iY .Bu.y3,
+.aKA,
+.aK1,
+.a2q {
     display: none!important;
 }
-/* messages full width */
+
+/* Reclaim wasted space - full width */
 .if {
      margin-right: 0!important;
 }
