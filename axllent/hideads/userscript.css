@@ -1,8 +1,11 @@
 /* Hide side ads / wider email screen */
 .iY .Bu.y3 {
-    display: none;
+    display: none!important;
 }
 /* messages full width */
 .if {
-     margin-right: 0;
+     margin-right: 0!important;
+}
+.ii {
+    margin-right: 0!important;
 }
