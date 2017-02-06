@@ -1,0 +1,31 @@
+/* Created by Binam Kayastha under GPL License. Maintained as a userscript here: https://github.com/binamkayastha/UserScripts/blob/master/Inbox/CompactInbox.js*/
+/* Increase width */
+.cM{width: 90%; padding-right: 4% !important;} .lQ{line-height: 20px !important;}
+.an{padding: 0px !important; margin: auto !important;}
+.jS{margin: 0px !important; min-height: 30px !important}
+
+/* Auto Align */
+.iG{margin: auto !important; /*img*/}
+.rv{margin: auto !important;}
+.rv{margin: auto !important;}
+.hY{margin: auto !important;}
+
+/* Remove shadow, add borders */
+.aa::before, .an::before{box-shadow: none !important; border: 1px solid #ddd; border-left: solid #ddd}
+
+/* Shrink Icon Sizes */
+.gi, .gN{width: 20px !important; height: 20px !important;}
+
+/* Change Font size */
+.ai-b8{font-size: 15px; font-weight: bold;}
+
+/* Removing/Decreasing empty space */
+.ai-b8{margin: 0px !important; margin-top: 8px}
+.az{padding: 5px !important; margin-bottom: 0px !important; margin-top: 10px !important}
+.kz{margin-bottom: 0px;}
+.g-aq.b0{padding: 2px 24px !important;}
+
+/* Shrinking Attachments */
+.cq{height: 24px !important;} .cq:hover{height: 88px !important;}
+.mp{height: 24px !important;}
+.ga{height: 24px !important;}

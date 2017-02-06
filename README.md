@@ -20,6 +20,7 @@ Here are some userscripts that have been provided by the community to help you c
 * **@axllent [Attachment Icons in Gmail](axllent/attachmenticons/userscript.css)** - adds basic attachment icons depending on filetype [CSS](axllent/attachmenticons/userscript.css)
 * **@Thomas101 [Hide Scrollbar in Inbox](Thomas101/hidescroll/userscript.css)** - hides the main scrollbar that flows over the titlebar in Google Inbox [CSS](Thomas101/hidescroll/userscript.css)
 * **@MichaelTunnell [Custom default font size](MichaelTunnell/custom-default-font-size)** - change the default font size in Gmail and Google Inbox [CSS](MichaelTunnell/custom-default-font-size/userscript.css) [README](MichaelTunnell/custom-default-font-size/README.md)
+* **@binamkayastha [CompactInbox](binamkayastha/CompactInbox)** - makes Google Inbox more compact [CSS](binamkayastha/CompactInbox/userscript.css)
 
 ---
 
