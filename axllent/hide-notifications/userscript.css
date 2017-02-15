@@ -1,6 +1,7 @@
 /* Hide Gmail Notification icon (top right) and reclaim space */
 .gb_lc.gb_oc,
 .gb_R.gb_xc,
-.gb_R.gb_Ab {
+.gb_R.gb_Ab,
+.gb_gb.gb_Mf.gb_R {
     display: none !important;
 }
