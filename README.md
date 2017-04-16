@@ -22,6 +22,7 @@ Here are some userscripts that have been provided by the community to help you c
 * **@MichaelTunnell [Custom default font size](MichaelTunnell/custom-default-font-size)** - change the default font size in Gmail and Google Inbox [CSS](MichaelTunnell/custom-default-font-size/userscript.css) [README](MichaelTunnell/custom-default-font-size/README.md)
 * **@binamkayastha [CompactInbox](binamkayastha/CompactInbox)** - makes Google Inbox more compact [CSS](binamkayastha/CompactInbox/userscript.css)
 * **@steveteuber [Modern Inbox](steveteuber/modern-inbox)** - Fine tuned the look and feel of Inbox [CSS](steveteuber/modern-inbox/userscript.css) [JS](steveteuber/modern-inbox/userscript.js)
+* **@mikesprague [Clean Gmail](mikesprague/clean-gmail)** - Use system fonts, set base font size, includes @axllent's hide-ads &amp; attachment-icons [CSS](mikesprague/clean-gmail/userstyle.css)
 
 ---
 
