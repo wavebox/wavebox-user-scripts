@@ -1,7 +1,9 @@
-body, body * { 
-  /* set font size (adjust to your liking) */
+body {
+  /* set font size (tweak to your liking) */
   font-size: 14px !important;
-  
+}
+
+body, body * { 
   /* cleaner font rendering */
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
