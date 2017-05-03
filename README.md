@@ -17,7 +17,7 @@ Your mailbox will reload and your script will be applied.
 Here are some userscripts that have been provided by the community to help you customise your mailboxes
 
 * **@axllent [Hide Ads in Gmail](axllent/hide-ads/userscript.css)** - hides the ads in Gmail and make the email screen wider [CSS](axllent/hide-ads/userscript.css)
-* **@axllent [Attachment Icons in Gmail](axllent/attachment-icons/userscript.css)** - adds basic attachment icons depending on filetype [CSS](axllent/attachment-icons/userscript.css)
+* **@axllent [Attachment Icons in Gmail](axllent/attachment-icons)** - adds basic attachment icons depending on filetype [CSS](axllent/attachment-icons/userscript.css) [JS](axllent/attachment-icons/userscript.js)
 * **@Thomas101 [Hide Scrollbar in Inbox](Thomas101/hidescroll/userscript.css)** - hides the main scrollbar that flows over the titlebar in Google Inbox [CSS](Thomas101/hidescroll/userscript.css)
 * **@MichaelTunnell [Custom default font size](MichaelTunnell/custom-default-font-size)** - change the default font size in Gmail and Google Inbox [CSS](MichaelTunnell/custom-default-font-size/userscript.css) [README](MichaelTunnell/custom-default-font-size/README.md)
 * **@binamkayastha [CompactInbox](binamkayastha/CompactInbox)** - makes Google Inbox more compact [CSS](binamkayastha/CompactInbox/userscript.css)
