@@ -26,6 +26,7 @@ Here are some userscripts that have been provided by the community to help you c
 * **@mikesprague [Clean Gmail](mikesprague/clean-gmail)** - Use system fonts and includes @axllent's hide-ads &amp; attachment-icons [CSS](mikesprague/clean-gmail/userstyle.css)
 * **@mikesprague [Modernized Trello](mikesprague/modernized-trello)** - System fonts, dark backgrounds, and material styling (on boards) [CSS](mikesprague/modernized-trello/userstyle.css)
 * **@mikesprague [Dark &amp; Modern Feedly](mikesprague/dark-modern-feedly)** - System fonts and a dark/flat style for Feedly [CSS](mikesprague/dark-modern-feedly/userstyle.css)
+* **@mikesprague [Dark Slack](mikesprague/dark-slack)** - Dark/night userstyle for Slack [CSS](mikesprague/dark-slack/userstyle.css)
 
 ---
 
