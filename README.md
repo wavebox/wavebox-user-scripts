@@ -23,7 +23,9 @@ Here are some userscripts that have been provided by the community to help you c
 * **@binamkayastha [CompactInbox](binamkayastha/CompactInbox)** - makes Google Inbox more compact [CSS](binamkayastha/CompactInbox/userscript.css)
 * **@steveteuber [Modern Inbox](steveteuber/modern-inbox)** - Fine tuned the look and feel of Inbox [CSS](steveteuber/modern-inbox/userscript.css) [JS](steveteuber/modern-inbox/userscript.js)
 * **@mikesprague [Use System Fonts](mikesprague/use-system-fonts)** - Use system fonts for faster/cleaner rendering [CSS](mikesprague/use-system-fonts/userstyle.css)
-* **@mikesprague [Clean Gmail](mikesprague/clean-gmail)** - Use system fonts, set base font size, includes @axllent's hide-ads &amp; attachment-icons [CSS](mikesprague/clean-gmail/userstyle.css)
+* **@mikesprague [Clean Gmail](mikesprague/clean-gmail)** - Use system fonts and includes @axllent's hide-ads &amp; attachment-icons [CSS](mikesprague/clean-gmail/userstyle.css)
+* **@mikesprague [Modernized Trello](mikesprague/modernized-trello)** - System fonts, dark backgrounds, and material styling (on boards) [CSS](mikesprague/modernized-trello/userstyle.css)
+* **@mikesprague [Dark &amp; Modern Feedly](mikesprague/dark-modern-feedly)** - System fonts and a dark/flat style for Feedly [CSS](mikesprague/dark-modern-feedly/userstyle.css)
 
 ---
 
