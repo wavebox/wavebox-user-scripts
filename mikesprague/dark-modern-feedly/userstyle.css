@@ -359,13 +359,27 @@ body, body * {
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* use system fonts for cleaner/faster rendering */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
 }
 
 .fx .entry.u0:hover {
   background-color: rgba(255, 255, 255, 0.67) !important;
 }
 
-#headerBarFX {
+#headerBarFX, 
+#headerBarFX header {
   background-color: #393f4c !important;
+}
+
+.entryBody h1,
+.entryBody h2,
+.entryBody h3,
+.entryBody h4,
+.entryBody h5,
+.entryBody h1 a,
+.entryBody h2 a,
+.entryBody h3 a,
+.entryBody h4 a,
+.entryBody h5 a {
+  color: #5183a1 !important;
 }
