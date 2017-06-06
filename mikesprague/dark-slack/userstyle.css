@@ -6904,3 +6904,11 @@ body>.section.main {
 .incident_update .time {
   color: #e6e6e6;
 }
+
+body, body * {
+  /* cleaner font rendering */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
