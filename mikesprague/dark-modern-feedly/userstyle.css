@@ -1,355 +1,141 @@
-body#box {
+/* Remove stuff */
+
+.xlarge-only, #integrationstab_header, #librarytab_header, .button-share-to-team {
+  display: none !important;
+}
+
+
+/* Backgrounds */
+
+#addContentPlaceholderFX .button-icon-left, .menu, .item-with-visuals, .headerInfo-expanded-scroller, .popover, div.modal.small, .u100Header-banner, #feedlyDialogFramePart, .feed-header, #formActions {
+  background: #212121 !important;
+}
+
+#searchBarFX, #feedlyTabs, .sliderContainer, #headerBarFX, .subscriptionContentsHolder, .u0:hover, .edition, .header.sticky, .headerInfo, #headerBarFX header {
+  background: #303030 !important;
+}
+
+#mainBarFX, .floatingEntryScroller, .entryholder, #feedlyFrame, #feedlyPageHolderFX, body, .selected:hover {
+  background: #444242 !important;
+}
+
+
+/* Icons */
+
+.mark-as-read-button, .button-refresh, .feedly-logo, .headerInfo-expanded-img, .button-customize-page, .action.requiresEditMode.hoverableIcon, .button-dropdown .no-border.secondary.button-icon-only, .icon-fx-rss-ios-sm-black, .icon-fx-google-plus-ios-sm-black, .condensed-tools, .close-button, .empty-preview, .tertiary:not(.accent), .icon-fx-light-gear-ios-md-black, .icon-fx-laurel-ios-sm-black, .icon-fx-add-ios-sm-black {
+  filter: invert(100%) !important;
+  -webkit-filter: invert(100%) !important;
+}
+
+
+/* left and right arrows in article mode */
+
+.slideBumper {
+  background: #E0E0E0 !important;
+  border-radius: 50% !important;
+}
+
+
+/* Text */
+
+h1, h2, .heading, a:hover, .item-header, .editionInfo {
+  color: #EEE !important;
+}
+
+h3, h4, .title, a, .h2Link, label, .theme-panel-label, .subscription-status, .card-header {
+  color: #DDD !important;
+}
+
+.summary, p, .subscriptionContentsTitle, .item, td, section, div {
+  color: #BBB !important;
+}
+
+.metadata, .engagement, .action {
+  color: #AAA !important;
+}
+
+.read a, .read div, .read span {
+  color: #888 !important;
+}
+
+input::placeholder {
+  color: #212121 !important;
+}
+
+
+/* Unread count next to the check mark, color already inverted so need different color */
+
+.mark-as-read-button span {
+  color: #353535 !important;
+}
+
+a {
+  font-weight: bold !important;
+}
+
+
+/* Sidebar items */
+
+.header:not(.row), .feedIndex, .moreHandle {
+  transition-duration: .25s !important;
+  border-radius: 3px !important;
+  padding-right: 6px !important;
+}
+
+.header:hover:not(.row), .feedIndex:hover {
+  background: #555 !important;
+  margin-left: 3px !important;
+}
+
+.moreHandle:hover {
+  background: #555 !important;
+}
+
+
+/* Fix width in magazine view */
+
+.col-xl-9 {
   width: 100% !important;
 }
 
-div#feedlyFrame {
-  background-color: #171B1F !important;
-}
-
-/* Tabs - Start */
-#feedlyTabsHolder.pinned {
-  z-index: 5 !important;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
-}
-
-div#feedlyTabs {
-  padding: 0 !important;
-  width: auto !important;
-}
-
-div#feedlyTabs .tab {
-  margin: 0 30px 0 20px !important;
-}
-
-div#feedlyTabs>div:first-child {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 25px 20px 0;
-}
-
-div#feedlyTabs>div:nth-child(2) {
-  margin-top: 120px;
-  margin-bottom: 0 !important;
-}
-
-div#feedlyTabs>div:nth-child(3) {
-  margin-top: 0 !important;
-  padding-top: 0;
-}
-
-div#feedlyTabs #tagList {
-  display: block !important;
-  margin-top: 25px !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-}
-
-div#feedlyTabs button.fx-button, div#feedlyTabs button.fx-button.secondary, div#feedlyTabs button.fx-button:hover {
-  z-index: 99;
-  border: none;
-  padding: 5px 1px 0px 1px !important;
-  background: rgba(255, 255, 255, 1);
-  height: 48px;
-  width: 48px !important;
-  border-radius: 24px;
-  position: fixed;
-  top: 82px;
-  right: 18px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
-  display: block;
-  overflow: hidden;
-}
-
-div#feedlyTabs button.fx-button::before {
-  height: 25px !important;
-  width: 25px !important;
-  display: block;
-  margin-top: 12px;
-  margin-left: 12px;
-  margin-bottom: 50px;
-  content: "+"!important;
-  font-size: 30px;
-  font-family: Roboto !important;
-  font-weight: 100 !important;
-  color: #333;
-}
-
-div#feedlyTabs .separator {
-  margin-top: 1px !important;
-  color: transparent;
-}
-
-div#feedlyTabs div#fixedProfile {
-  top: 0;
-  padding: 17px 10px !important;
-  height: 70px;
-  max-height: 70px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-}
-
-div#feedlyTabs div#fixedProfile div.profilePicture {
-  margin-left: 5px !important;
-  height: 70px;
-  width: 70px;
-  background-size: 70px 70px;
-}
-
-div#feedlyTabs div#fixedProfile div.fx-button {
-  background-color: rgba(255, 255, 255, 0.20) !important;
-  float: right;
-  top: 60px;
-  position: absolute;
-  left: 95px;
-  box-shadow: none;
-}
-/* Tabs - End */
-
-div#floatingBar {
-  z-index: 4 !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
-  background-color: #4d5667;
-}
-
-#feedlyPageHeader {
-  margin-right: 0 !important;
-}
-
-#searchBarFX {
-  background-color: #393f4c !important;
-}
-
-.fx .form textarea, .fx .form input:not([type]), .fx .form [type="text"], .fx .form [type="email"], .fx .form [type="search"], .fx .form [type="password"], .fx .form [type="date"], .fx .form [type="datetime-local"], .fx .form [type="tel"], .fx .form [type="time"], .fx .form [type="url"], .fx .form [type="number"], .fx .form .public-DraftEditor-content, .fx .form .public-DraftEditorPlaceholder-root {
-  background-color: #171B1F;
-}
-
-#mainBarFX {
-  background-color: #272B35 !important;
-}
-
-#mainBar {
-  background-color: #171B1F;
-  width: auto!important;
-  max-width: 1000px !important;
-  margin: 0 auto !important;
-  padding: 0 20px !important;
-}
-
-/* search box */
-#herculeFrame {
-  background-color: #272b35;
-}
-
-h1#feedlyTitleBar {
-  color: #BAD3DB;
-}
-
-#floatingEntry .promoted .entryBody h1, .promoted .entryBody h1 {
-  color: #5183A1;
-}
-
-.entryBody h1 {
-  color: #5183A1;
-}
-
-.entryBody h2 {
-  color: #5183A1;
-}
-
-.entryBody h3 {
-  color: #5183A1;
-}
-
-.entryBody h4 {
-  color: #5183A1;
-}
-
-.entryBody td {
-  color: #BAD3DB;
-}
-
-div#addContentPlaceholderFX {
-  background-color: #393F4C;
-}
-
-div#feedlyTabs.dark-aware {
-  background-color: #393F4C;
-}
-
-div#fixedProfile {
-  background-color: #272B35;
-}
-
-div#feedlyTabsHolder {
-  background-color: #272B35;
-}
-
-#feedlyPart0, #feedlyPart, #feedlyPage, div.u100Entry, div.entryBody {
-  color: #BAD3DB !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
+.fx .entry.u4 {
   max-width: none !important;
 }
 
-div.u100Frame {
-  margin: 24px auto;
-  padding: 0 !important;
+
+/* Buttons */
+
+.giant-mark-as-read, #feedlyTabsUnpin, .visitWebsiteButton, .small.pro.primary, .list-cards .card, .follow {
+  background: #43a047 !important;
+  color: #EEE !important;
+  transition-duration: .4s !important;
+  box-shadow: none !important;
+}
+
+.danger.primary {
+  color: #EEE !important;
+  transition-duration: .4s !important;
+  box-shadow: none !important;
+}
+
+.giant-mark-as-read:hover, #feedlyTabsUnpin:hover, .visitWebsiteButton:hover, .small.pro.primary:hover, .list-cards .card:hover, .follow:hover {
+  background: #2e7d32 !important;
+}
+
+
+/* Title only view */
+
+.read.u0 {
+  margin-bottom: 1.5px !important;
+  border-bottom: 1px solid #555 !important;
+  border-radius: 6px !important;
+}
+
+
+/* NO BORDERS */
+
+* {
   border: none !important;
-  border-radius: 3px !important;
-  width: 100% !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
-  background-color: #272B35 !important;
-}
-
-div.entryholder {
-  padding: 0 !important;
-  background: none !important;
-}
-
-div.entryHeader {
-  padding: 20px 20px 10px 20px !important;
-}
-
-a.title:hover, .unread {
-  color: #5675B9 !important;
-}
-
-.read {
-  color: #BAD3DB !important;
-}
-
-a.title.unread {
-  color: #5675B9 !important;
-}
-
-.entryBody .summary b, .entryBody .content b {
-  color: #E9F4FE;
-  font-weight: bold;
-}
-
-.u100Frame .u100Entry .title {
-  margin-bottom: 9px !important;
-}
-
-div.entryBody>div.content {
-  padding: 20px !important;
-}
-
-div.entryBody>div img {
-  margin: 15px 0 !important;
-  width: inherit !important;
-  max-width: 100% !important;
-  border: none !important;
-  border-radius: 0 !important;
-}
-
-div.entryBody video {
-  margin: 20px !important;
-}
-
-/* View - Title Only - Start */
-div.u0EntryList div#section0_column0 {
-  border-radius: 3px !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
-  background: #fff !important;
-}
-
-div.u0EntryList .inlineFrame {
-  border-left: 0 !important;
-  border-right: 0 !important;
-}
-
-div.u0EntryList .inlineFrame:first-child {
-  border-top: none !important;
-  border-radius: 3px!important;
-}
-
-div.u0EntryList .u0Entry {}
-
-div.u0EntryList .u0Entry:first-child {
-  border-top: 0!important;
-  border-radius: 3px!important;
-}
-
-div.u0EntryList .u0Entry:last-child {
-  border-bottom: 0 !important;
-  border-radius: 3px!important;
-}
-/* View - Title Only - End */
-
-/* View - Magazine - Start */
-.u4Entry {
-  margin-bottom: 24px;
-  max-width: none;
-  background-color: #fff !important;
-  border-radius: 3px !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
-}
-
-.u4Entry .marginMaker .title {
-  padding: 15px 15px 7px 0 !important;
-  font-weight: 700 !important;
-}
-
-.u4Entry .marginMaker .summary {
-  max-height: 100px !important;
-  padding: 0 15px 7px 0 !important;
-}
-
-.u4Entry .u4EntryAnnotationHolder {
-  height: 150px !important;
-  width: 250px !important;
-}
-
-.u4Entry div.visual {
-  border: none !important;
-  border-radius: 3px 0 0 3px !important;
-  height: 100% !important;
-  width: 100% !important;
-}
-/* View - Magazine - End */
-
-/* View - Cards - Start */
-.floatingEntryScroller {
-  background-color: #272B35;
-}
-
-.u5Entry {
-  margin-right: 24px !important;
-  margin-bottom: 24px !important;
-  width: 316px;
-  max-width: 316px;
-  border: none !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
-}
-
-.u5Entry .visual {
-  width: 100% !important;
-}
-/* View - Cards - End */
-
-div.column3 {
-  width: 340px;
-}
-
-.fx h1 {
-  color: #E1E2E4;
-}
-
-.fx .entry.unread .title {
-  color: #5675B9 !important;
-}
-
-.headerInfo.headerInfo-article {
-  margin-top: 10px;
-  border: none !important;
-  border-top: 1px solid #eaeaea !important;
-  border-radius: 0 !important;
-  background: none !important;
-}
-
-div#sideArea, div.entryholder a.fx-button {
-  display: none !important;
 }
 
 body, body * {
@@ -359,27 +145,5 @@ body, body * {
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* use system fonts for cleaner/faster rendering */
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
-}
-
-.fx .entry.u0:hover {
-  background-color: rgba(255, 255, 255, 0.67) !important;
-}
-
-#headerBarFX, 
-#headerBarFX header {
-  background-color: #393f4c !important;
-}
-
-.entryBody h1,
-.entryBody h2,
-.entryBody h3,
-.entryBody h4,
-.entryBody h5,
-.entryBody h1 a,
-.entryBody h2 a,
-.entryBody h3 a,
-.entryBody h4 a,
-.entryBody h5 a {
-  color: #5183a1 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
