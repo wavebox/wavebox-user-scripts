@@ -1,0 +1,65 @@
+/* use system fonts for faster/cleaner rendering */
+body, body * {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+
+/* Desktop style contacts and messages width */
+:root {
+  /* Basic width of left column with contacts */
+  --contacts-column-width: 300px;
+}
+.im_page_wrap {
+  max-width: none;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.tg_head_split {
+  max-width: none;
+}
+.im_send_panel_wrap {
+  max-width: none;
+  padding-bottom: auto;
+}
+.im_dialogs_col_wrap {
+  padding-bottom: auto;
+}
+.im_dialogs_col_wrap {
+  width: var(--contacts-column-width);
+}
+.im_history_col_wrap {
+  margin-left: var(--contacts-column-width);
+  float: none;
+  width: auto;
+}
+.im_message_wrap {
+  max-width: none;
+}
+.im_message_wrap {
+  max-width: none;
+}
+.im_send_form {
+  max-width: none;
+}
+.tg_head_logo_wrap {
+  width: var(--contacts-column-width);
+}
+.tg_head_main_wrap {
+  width: auto;
+  float: none;
+}
+/* Move stickers dialog a bit to avoid window overlapping */
+.composer_emoji_tooltip_tail {
+  margin-left: 57px;
+}
+.composer_emoji_tooltip {
+  margin-left: -200px;
+}
+/* Hide footer */
+.footer_wrap, .footer_empty {
+  display: none;
+}
+.im_dialogs_col_wrap {
+  padding-bottom: 0;
+}
