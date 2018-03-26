@@ -20,7 +20,7 @@ function getMilliseconds(arg) {
 
 const startReload = () => {
     setTimeout(() => {
-        console.debug('Reloading...');
+        console.log(`${scriptName} - Reloading...`);
         location.reload();
     }, getMilliseconds(interval))
 };
