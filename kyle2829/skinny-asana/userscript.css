@@ -27,3 +27,30 @@ div.PageHeaderStructure-left, div.PageHeaderStructure-right {
 div.PageHeaderStructure {
     min-width: 200px;
 }
+
+div.Topbar-accountInfo, div.TopbarPlaceholder-rightContent {
+    -webkit-flex: 1 0 100px;
+    -ms-flex: 1 0 100px;
+    flex: 1 0 100px;
+}
+
+.Topbar-upgradeButton.topbarContingentUpgradeButton-button {
+    display:none;
+}
+
+.topbarHelpMenuButton.topbarHelpMenuButton-textButton {
+    margin-left:10px;
+    margin-right:0px;
+}
+
+a.Topbar-myTasksButton, a.Topbar-notificationsButton, a.Topbar-myDashboardButton {
+    margin: 0 5px;
+}
+
+div.Topbar-left, div.TopbarPlaceholder-leftContent {
+    min-width:150px;
+}
+
+div.details-invisible #right_pane_container {
+    display:none;
+}
