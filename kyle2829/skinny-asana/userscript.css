@@ -1,0 +1,29 @@
+/* Reduces Asana's minimum page width from 920px */
+
+div #center_pane_container {
+    -webkit-flex: 5500 1 200px;
+    -ms-flex: 5500 1 200px;
+    flex: 5500 1 200px;
+    min-width: 100px;
+}
+
+div.remix-topbar {
+    min-width: 500px;
+}
+
+div #right_pane_container {
+    -webkit-flex: 4500 0 200px;
+    -ms-flex: 4500 0 200px;
+    flex: 4500 0 200px;
+}
+div.asanaView-body {
+    min-width: 300px;
+}
+
+div.PageHeaderStructure-left, div.PageHeaderStructure-right {
+    flex: 1 1 auto;
+}
+
+div.PageHeaderStructure {
+    min-width: 200px;
+}
