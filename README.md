@@ -29,6 +29,7 @@ Here are some userscripts that have been provided by the community to help you c
 * **@mikesprague [Dark &amp; Modern Feedly](mikesprague/dark-modern-feedly)** - System fonts and a dark/flat style for Feedly [CSS](mikesprague/dark-modern-feedly/userstyle.css)
 * **@mikesprague [Dark Slack](mikesprague/dark-slack)** - Dark/night userstyle for Slack [CSS](mikesprague/dark-slack/userstyle.css)
 * **@volendi [Telegram Desktop](volendi/telegram-desktop)** - System fonts, increased useful area [CSS](volendi/telegram-desktop/userstyle.css)
+* **@kyle2829 [Skinny Asana](kyle2829/skinny-asana)** - Reduces Asana's minimum page width from 920px [CSS](kyle2829/skinny-asana/userscript.css)
 
 ---
 
