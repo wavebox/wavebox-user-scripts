@@ -1,0 +1,56 @@
+/* Reduces Asana's minimum page width from 920px */
+
+div #center_pane_container {
+    -webkit-flex: 5500 1 200px;
+    -ms-flex: 5500 1 200px;
+    flex: 5500 1 200px;
+    min-width: 100px;
+}
+
+div.remix-topbar {
+    min-width: 500px;
+}
+
+div #right_pane_container {
+    -webkit-flex: 4500 0 200px;
+    -ms-flex: 4500 0 200px;
+    flex: 4500 0 200px;
+}
+div.asanaView-body {
+    min-width: 300px;
+}
+
+div.PageHeaderStructure-left, div.PageHeaderStructure-right {
+    flex: 1 1 auto;
+}
+
+div.PageHeaderStructure {
+    min-width: 200px;
+}
+
+div.Topbar-accountInfo, div.TopbarPlaceholder-rightContent {
+    -webkit-flex: 1 0 100px;
+    -ms-flex: 1 0 100px;
+    flex: 1 0 100px;
+}
+
+.Topbar-upgradeButton.topbarContingentUpgradeButton-button {
+    display:none;
+}
+
+.topbarHelpMenuButton.topbarHelpMenuButton-textButton {
+    margin-left:10px;
+    margin-right:0px;
+}
+
+a.Topbar-myTasksButton, a.Topbar-notificationsButton, a.Topbar-myDashboardButton {
+    margin: 0 5px;
+}
+
+div.Topbar-left, div.TopbarPlaceholder-leftContent {
+    min-width:150px;
+}
+
+div.details-invisible #right_pane_container {
+    display:none;
+}
