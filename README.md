@@ -30,6 +30,7 @@ Here are some userscripts that have been provided by the community to help you c
 * **@mikesprague [Dark Slack](mikesprague/dark-slack)** - Dark/night userstyle for Slack [CSS](mikesprague/dark-slack/userstyle.css)
 * **@volendi [Telegram Desktop](volendi/telegram-desktop)** - System fonts, increased useful area [CSS](volendi/telegram-desktop/userstyle.css)
 * **@kyle2829 [Skinny Asana](kyle2829/skinny-asana)** - Reduces Asana's minimum page width from 920px [CSS](kyle2829/skinny-asana/userscript.css)
+* **@jason0x43 [Gitter Status](jason0x43/gitter-badge)** - Updates the activity badge of a generic Wavebox container that's logged into Gitter [JS](jason0x43/gitter-badge/userscript.js)
 
 ---
 
