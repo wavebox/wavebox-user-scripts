@@ -32,7 +32,7 @@ Here are some userscripts that have been provided by the community to help you c
 * **@kyle2829 [Skinny Asana](kyle2829/skinny-asana)** - Reduces Asana's minimum page width from 920px [CSS](kyle2829/skinny-asana/userscript.css)
 * **@jason0x43 [Gitter Status](jason0x43/gitter-badge)** - Updates the activity badge of a generic Wavebox container that's logged into Gitter [JS](jason0x43/gitter-badge/userscript.js)
 * **@trollfred [tawk.to Status](trollfred/tawk.to)** - Unread messages/chats counters support for tawk.to [JS](trollfred/tawk.to/userscript.js)
-+* **Thomas101 [MathJax for slack](Thomas101/math-with-slack)** - Adds MathJax support to Slack [JS](Thomas101/math-with-slack/userscript.js)
+* **Thomas101 [MathJax for slack](Thomas101/math-with-slack)** - Adds MathJax support to Slack [JS](Thomas101/math-with-slack/userscript.js)
 
 ---
 
