@@ -1,0 +1,12 @@
+html[dir] ._1FPJ-:after {
+    visibility: hidden;
+}
+
+html[dir] ._3RWII{
+	width: 40px !important;
+	height: 40px !important;
+}
+
+body {
+     background-image: url("https://source.unsplash.com/4096x2160/?coffee,nature");
+}
